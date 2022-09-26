@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container {
+    width: 50vw;
+    margin: 2rem auto;
+    height: auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+td {
+    padding: 0.3rem 0;
+}
+
+input {
+    padding: 0.2rem;
+}
+
+button {
+    padding: 0.2rem 1.5rem;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+.result {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.result tr {
+    border: 1px solid gray;
+    width: 80%;
+}
+
+.result td,
+.result th {
+    border: 1px solid gray;
+    padding: 0.2rem 5rem;
+}
